@@ -1,0 +1,14 @@
+
+
+.malaga {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.img {
+    width: 300px; 
+
+}
+
