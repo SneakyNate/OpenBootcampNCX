@@ -1,0 +1,16 @@
+
+button.boton{
+    height: 250px;
+    width: 500px;
+    font-size: larger;
+}
+
+button.boton::after{
+    content: "pasa por encima";
+}
+button.boton:hover::after{
+    background-color: green;
+    color: white;
+    text-transform:uppercase;
+    content: "HECHO!"
+}
